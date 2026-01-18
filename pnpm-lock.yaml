@@ -28,6 +28,14 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/vendura-core: {}
+
+  packages/vendura-mongodb:
+    dependencies:
+      vendura-core:
+        specifier: workspace:*
+        version: link:../vendura-core
+
 packages:
 
   '@mongodb-js/saslprep@1.4.4':

@@ -13,7 +13,7 @@ export function assertTransition(from: OrderState, to: OrderState) {
   if (!transitions[from].includes(to)) {
     throw new VenduraError(
       ERRORS.INVALID_STATE,
-      \Invalid transition \ -> \\
+      `Invalid transition ${from} -> ${to}`
     );
   }
 }

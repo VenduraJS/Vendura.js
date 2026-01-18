@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "vendura-core": ["packages/vendura-core/src"]
+    }
+  }
+}
