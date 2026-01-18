@@ -2,7 +2,8 @@
   "name": "@vendura/mongodb",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "vendura-core": "workspace:*"
-  }
+"dependencies": {
+  "vendura-core": "file:../vendura-core"
+}
+
 }
