@@ -1,5 +1,5 @@
 {
-  "name": "@vendura/next",
+  "name": "@venduraa/next",
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,6 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@vendura/mongodb": "file:../vendura-mongodb"
+    "@venduraa/mongodb": "^0.1.0"
   }
 }

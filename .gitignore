@@ -1,2 +1,4 @@
 node_modules/
 dist/
+build.ps1
+node_modules

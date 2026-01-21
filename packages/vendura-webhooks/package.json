@@ -1,11 +1,10 @@
 {
-  "name": "@vendura/webhooks",
+  "name": "@venduraa/webhooks",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "vendura-core": "file:../vendura-core",
-    "@vendura/mongodb": "file:../vendura-mongodb",
-    "@vendura/razorpay": "file:../vendura-razorpay"
+    "@venduraa/core": "^0.1.0",
+    "@venduraa/mongodb": "^0.1.0",
+    "@venduraa/razorpay": "^0.1.0"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
